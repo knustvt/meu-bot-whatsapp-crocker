@@ -1,0 +1,24 @@
+{
+  "name": "whatsapp-bot",
+  "version": "1.0.0",
+  "description": "Bot de WhatsApp com comandos de utilidades, figurinhas e administração.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "nodejs"
+  ],
+  "author": "Manus AI",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@imgly/background-removal-node": "^1.3.0",
+    "@whiskeysockets/baileys": "^6.7.2",
+    "pino": "^8.21.0",
+    "wa-sticker-formatter": "^4.4.4"
+  }
+}
